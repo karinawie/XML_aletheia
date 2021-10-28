@@ -37,7 +37,7 @@ public class Main {
 		}	
 		List<Path> anos = null;
 		try {
-			Stream<Path> pth = Files.list(Paths.get("/home/Karina/MEGA/ufsm/Dissertação/enadeDadosGT/aletheia GT"));
+			Stream<Path> pth = Files.list(Paths.get("/home/Karina/Dissertação/aletheia GT"));
 			anos = pth.sorted().collect(Collectors.toList());
 
 			
